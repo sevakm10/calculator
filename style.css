@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    user-select: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;   
+    font-weight: 500; 
+    background-color: #2d2d2d;
+}
+.calc{
+    width: 400px;
+    height: 800px;
+    background-color: black;
+    color: snow;
+    border-radius: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 70px;
+    position: relative;
+    
+}
+.calc_table{
+    width: 380px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 120px;
+    font-size: 80px;
+    position: relative;
+}
+.screen{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 30px;
+    font-size: 0.9em;
+}
+.calc_buttons{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.calc_dsipley_flex{
+   display: flex;
+   justify-content: center;
+}
+
+.btn{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+    margin: 8px;
+}
+.btn:hover{
+    background-color: #9f9f9f;
+    cursor: pointer;
+}
+.btn_1{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #9f9f9f;
+    margin: 8px;
+}
+.btn_1:hover{
+    background-color: #d6d2d2;
+    cursor: pointer;
+}
+.btn_2{
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eba026;
+    margin: 8px;
+}
+.btn_2_click{
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    color: #eba026;
+    margin: 8px;
+    transition: 0.5s;
+}
+.btn_2:hover{
+    background-color: #9d9b9b;
+    cursor: pointer;
+}
+.btn_0{
+    width: 135px;
+    height: 75px;
+    border-radius: 540px;
+    background-color: #313131;
+    margin: 8px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 30px;
+}
+.btn_0:hover{
+    background-color: #9f9f9f;
+    cursor: pointer;
+}
+.menu{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid snow;
+    border-radius: 50px;
+    /* margin: 0 auto; */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
